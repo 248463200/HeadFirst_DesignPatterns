@@ -1,20 +1,19 @@
 package headfisrt.A5_SingletonModel.test;
 
-import com.gupaoedu.vip.pattern.singleton.seriable.SeriableSingleton;
+
+import headfisrt.A5_SingletonModel.singleton.lazy.LazyInnerClassSingleton;
+import headfisrt.A5_SingletonModel.singleton.seriable.SeriableSingleton;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
-/**
- * Created by Tom.
- */
 public class SeriableSingletonTest {
     public static void main(String[] args) {
 
-        SeriableSingleton s1 = null;
-        SeriableSingleton s2 = SeriableSingleton.getInstance();
+        LazyInnerClassSingleton s1 = null;
+        LazyInnerClassSingleton s2 = LazyInnerClassSingleton.getInstance();
 
         FileOutputStream fos = null;
         try {
@@ -27,7 +26,7 @@ public class SeriableSingletonTest {
 
             FileInputStream fis = new FileInputStream("SeriableSingleton.obj");
             ObjectInputStream ois = new ObjectInputStream(fis);
-            s1 = (SeriableSingleton)ois.readObject();
+            s1 = (LazyInnerClassSingleton)ois.readObject();
             ois.close();
 
             System.out.println(s1);

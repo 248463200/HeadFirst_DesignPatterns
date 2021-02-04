@@ -1,16 +1,10 @@
 package headfisrt.A5_SingletonModel.test;
 
-import com.gupaoedu.vip.pattern.singleton.register.EnumSingleton;
 
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
+import headfisrt.A5_SingletonModel.singleton.register.EnumSingleton;
+
 import java.lang.reflect.Constructor;
 
-/**
- * Created by Tom.
- */
 public class EnumSingletonTest {
 //    public static void main(String[] args) {
 //        try {

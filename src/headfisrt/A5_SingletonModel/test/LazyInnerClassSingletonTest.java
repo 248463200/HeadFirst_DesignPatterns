@@ -1,18 +1,15 @@
 package headfisrt.A5_SingletonModel.test;
 
-import com.gupaoedu.vip.pattern.singleton.lazy.LazyInnerClassSingleton;
+
+import headfisrt.test.LazyInnerClassSingletons;
 
 import java.lang.reflect.Constructor;
-
-/**
- * Created by Tom.
- */
 public class LazyInnerClassSingletonTest {
 
     public static void main(String[] args) {
         try{
             //很无聊的情况下，进行破坏
-            Class<?> clazz = LazyInnerClassSingleton.class;
+            Class<?> clazz = LazyInnerClassSingletons.class;
 
             //通过反射拿到私有的构造方法
             Constructor c = clazz.getDeclaredConstructor(null);
@@ -24,7 +21,7 @@ public class LazyInnerClassSingletonTest {
 
             //调用了两次构造方法，相当于new了两次
             //犯了原则性问题，
-            Object o2 = c.newInstance();
+            Object o2 = LazyInnerClassSingletons.getInstance();
 
             System.out.println(o1 == o2);
 //            Object o2 = c.newInstance();

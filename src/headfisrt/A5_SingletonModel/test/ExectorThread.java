@@ -1,7 +1,7 @@
 package headfisrt.A5_SingletonModel.test;
 
-import com.gupaoedu.vip.pattern.singleton.lazy.LazySimpleSingleton;
-import com.gupaoedu.vip.pattern.singleton.threadlocal.ThreadLocalSingleton;
+
+import headfisrt.test.LazyDoubleCheckSingletons;
 
 /**
  * Created by Tom.
@@ -9,7 +9,7 @@ import com.gupaoedu.vip.pattern.singleton.threadlocal.ThreadLocalSingleton;
 public class ExectorThread implements Runnable{
     @Override
     public void run() {
-        LazySimpleSingleton singleton = LazySimpleSingleton.getInstance();
+        LazyDoubleCheckSingletons singleton = LazyDoubleCheckSingletons.getInstance();
 //        ThreadLocalSingleton singleton = ThreadLocalSingleton.getInstance();
         System.out.println(Thread.currentThread().getName() + ":" + singleton);
     }

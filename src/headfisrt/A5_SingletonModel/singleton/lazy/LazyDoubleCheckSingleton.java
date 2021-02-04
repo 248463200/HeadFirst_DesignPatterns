@@ -1,8 +1,5 @@
 package headfisrt.A5_SingletonModel.singleton.lazy;
 
-/**
- * Created by Tom.
- */
 
 public class LazyDoubleCheckSingleton {
     private volatile static LazyDoubleCheckSingleton lazy = null;

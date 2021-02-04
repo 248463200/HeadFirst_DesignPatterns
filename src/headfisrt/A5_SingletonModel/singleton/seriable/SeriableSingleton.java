@@ -2,9 +2,6 @@ package headfisrt.A5_SingletonModel.singleton.seriable;
 
 import java.io.Serializable;
 
-/**
- * Created by Tom.
- */
 
 //反序列化时导致单例破坏
 public class SeriableSingleton implements Serializable {

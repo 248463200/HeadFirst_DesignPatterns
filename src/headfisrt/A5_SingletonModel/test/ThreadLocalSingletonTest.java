@@ -1,10 +1,8 @@
 package headfisrt.A5_SingletonModel.test;
 
-import com.gupaoedu.vip.pattern.singleton.threadlocal.ThreadLocalSingleton;
 
-/**
- * Created by Tom.
- */
+import headfisrt.A5_SingletonModel.singleton.threadlocal.ThreadLocalSingleton;
+
 public class ThreadLocalSingletonTest {
     public static void main(String[] args) {
 

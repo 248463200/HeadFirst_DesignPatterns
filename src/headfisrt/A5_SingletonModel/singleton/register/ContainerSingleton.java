@@ -3,9 +3,6 @@ package headfisrt.A5_SingletonModel.singleton.register;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-/**
- * Created by Tom.
- */
 
 //Spring中的做法，就是用这种注册式单例
 public class ContainerSingleton {

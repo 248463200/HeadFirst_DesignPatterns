@@ -1,8 +1,5 @@
 package headfisrt.A5_SingletonModel.singleton.hungry;
 
-/**
- * Created by Tom.
- */
 
 //饿汉式单例
 // 它是在类加载的时候就立即初始化，并且创建单例对象

@@ -1,8 +1,5 @@
 package headfisrt.A5_SingletonModel.singleton.hungry;
 
-/**
- * Created by Tom.
- */
 
 //饿汉式静态块单例
 public class HungryStaticSingleton {

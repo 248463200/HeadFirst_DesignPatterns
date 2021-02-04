@@ -1,8 +1,5 @@
 package headfisrt.A5_SingletonModel.singleton.threadlocal;
 
-/**
- * Created by Tom.
- */
 public class ThreadLocalSingleton {
     private static final ThreadLocal<ThreadLocalSingleton> threadLocalInstance =
             new ThreadLocal<ThreadLocalSingleton>(){

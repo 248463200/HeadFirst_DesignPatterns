@@ -1,10 +1,8 @@
 package headfisrt.A5_SingletonModel.test;
 
-import com.gupaoedu.vip.pattern.singleton.register.ContainerSingleton;
 
-/**
- * Created by Tom.
- */
+import headfisrt.A5_SingletonModel.singleton.register.ContainerSingleton;
+
 public class ContainerSingletonTest {
     public static void main(String[] args) {
 
