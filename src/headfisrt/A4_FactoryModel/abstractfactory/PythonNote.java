@@ -1,9 +1,5 @@
 package headfisrt.A4_FactoryModel.abstractfactory;
 
-/**
- * Python笔记
- * Created by Tom.
- */
 public class PythonNote implements INote {
 
     public void edit() {

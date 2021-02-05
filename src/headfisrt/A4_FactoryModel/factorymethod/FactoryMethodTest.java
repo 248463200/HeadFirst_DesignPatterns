@@ -3,9 +3,6 @@ package headfisrt.A4_FactoryModel.factorymethod;
 
 import headfisrt.A4_FactoryModel.ICourse;
 
-/**
- * Created by Tom.
- */
 public class FactoryMethodTest {
 
     public static void main(String[] args) {

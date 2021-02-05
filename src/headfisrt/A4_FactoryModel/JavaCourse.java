@@ -1,9 +1,6 @@
 package headfisrt.A4_FactoryModel;
 
 
-/**
- * Created by Tom.
- */
 public class JavaCourse implements ICourse {
 
     public void record() {

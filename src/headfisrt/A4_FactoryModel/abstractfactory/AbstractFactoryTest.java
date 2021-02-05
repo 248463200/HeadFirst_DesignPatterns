@@ -1,8 +1,5 @@
 package headfisrt.A4_FactoryModel.abstractfactory;
 
-/**
- * Created by Tom.
- */
 public class AbstractFactoryTest {
 
     public static void main(String[] args) {

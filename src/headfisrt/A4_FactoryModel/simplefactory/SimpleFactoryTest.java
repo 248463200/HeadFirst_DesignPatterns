@@ -4,10 +4,6 @@ package headfisrt.A4_FactoryModel.simplefactory;
 import headfisrt.A4_FactoryModel.ICourse;
 import headfisrt.A4_FactoryModel.JavaCourse;
 
-/**
- * 小作坊式的工厂模型
- * Created by Tom.
- */
 public class SimpleFactoryTest {
 
     public static void main(String[] args) {

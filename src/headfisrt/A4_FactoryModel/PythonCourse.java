@@ -1,8 +1,5 @@
 package headfisrt.A4_FactoryModel;
 
-/**
- * Created by Tom.
- */
 public class PythonCourse implements ICourse {
 
     public void record() {

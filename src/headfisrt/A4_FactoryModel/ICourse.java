@@ -1,8 +1,5 @@
 package headfisrt.A4_FactoryModel;
 
-/**
- * Created by Tom.
- */
 public interface ICourse {
     /**
      * 录制视频

@@ -3,9 +3,6 @@ package headfisrt.A4_FactoryModel.simplefactory;
 
 import headfisrt.A4_FactoryModel.ICourse;
 
-/**
- * Created by Tom.
- */
 public class CourseFactory {
 
 //    public ICourse create(String name){
