@@ -1,0 +1,7 @@
+package headfisrt.A8_DelegateModel.simple;
+
+public class Boss {
+    public void command(String command,Leader leader){
+        leader.doing(command);
+    }
+}
