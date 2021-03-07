@@ -60,6 +60,7 @@ class ThreadPool {
                 } finally {
                     task = null;
                     workers.remove(task);
+
                 }
             }
         }
